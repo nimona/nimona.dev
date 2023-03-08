@@ -1,0 +1,28 @@
+{
+  "$type:s": "core/network/info",
+  "networkAlias:m": {
+    "$type:s": "core/network/alias",
+    "hostname:s": "nimona.io"
+  },
+  "networkIdentity:m": {
+    "$type:s": "core/identity/id",
+    "keyGraphID:m": {
+      "$type:s": "core/document/id",
+      "hash:r": "Hb28X2YcctMfWbiZTP++iWmpdaFhmuMSecPyAScklyA="
+    }
+  },
+  "peerAddresses:am": [
+    {
+      "$type:s": "core/node.address",
+      "address:s": "asimov.testing.reamde.dev:1013",
+      "network:s": "utp",
+      "publicKey:d": "kw9fMRoJPbcfKpXP4Hdi+pYLdZvMAenlP8lhh/F5Fvc="
+    },
+    {
+      "$type:s": "core/node.address",
+      "address:s": "banks.testing.reamde.dev:1013",
+      "network:s": "utp",
+      "publicKey:d": "0h2CHMsmzyj50bh9rEVySVHjZV+H9Jxel9ywlmIFIsI="
+    }
+  ]
+}
