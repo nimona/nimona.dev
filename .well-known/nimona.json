@@ -1,14 +1,30 @@
 {
-  "$type:s": "core/network/info",
-  "networkAlias:m": {
-    "$type:s": "core/network/alias",
+  "$metadata:m": {
+    "_signature:m": {
+      "signer:m": {
+        "$type:s": "core/peer/key",
+        "publicKey:d": "f6yWpjTP27C/jOv6j8Og1e/5ZwaGLOS6fgTHtlIJP0Y="
+      },
+      "x:d": "9FqXAgGv6B+MdhBw/GQu6DKazWRLkyx7atGeSHsNkYkpQaRJrk1XE/CMR+X4eaMG/7BjKTHhUQsaFJf4emfgBg=="
+    },
+    "owner:m": {
+      "$type:s": "core/identity/id",
+      "keyGraphID:m": {
+        "$type:s": "core/document/id",
+        "hash:r": "XwKov2ydWttO7CLWDotYw/nyf/Oul32jCl7Bajaek2s="
+      }
+    }
+  },
+  "$type:s": "core/identity/info",
+  "alias:m": {
+    "$type:s": "core/identity.alias",
     "hostname:s": "nimona.io"
   },
-  "networkIdentity:m": {
+  "identity:m": {
     "$type:s": "core/identity/id",
     "keyGraphID:m": {
       "$type:s": "core/document/id",
-      "hash:r": "Hb28X2YcctMfWbiZTP++iWmpdaFhmuMSecPyAScklyA="
+      "hash:r": "XwKov2ydWttO7CLWDotYw/nyf/Oul32jCl7Bajaek2s="
     }
   },
   "peerAddresses:am": [
@@ -16,13 +32,13 @@
       "$type:s": "core/node.address",
       "address:s": "asimov.testing.reamde.dev:1013",
       "network:s": "utp",
-      "publicKey:d": "kw9fMRoJPbcfKpXP4Hdi+pYLdZvMAenlP8lhh/F5Fvc="
+      "publicKey:d": "rGtT9nPhbXADbMkEV17gMpR9IXePhqNjJeTLtpKngqw="
     },
     {
       "$type:s": "core/node.address",
       "address:s": "banks.testing.reamde.dev:1013",
       "network:s": "utp",
-      "publicKey:d": "0h2CHMsmzyj50bh9rEVySVHjZV+H9Jxel9ywlmIFIsI="
+      "publicKey:d": "nK+Sbtm0DTim0/354pYhCUVH00sDTxgJ4D4Of5d4f08="
     }
   ]
 }
