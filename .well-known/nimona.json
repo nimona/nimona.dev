@@ -3,15 +3,15 @@
     "_signature:m": {
       "signer:m": {
         "$type:s": "core/peer/key",
-        "publicKey:d": "C8yarW5I5Q/FXEEqynviQE+L5U04zZAoNoHJyveQad4="
+        "publicKey:d": "Fpf5JRH4TlEqpOrKoyv6X6Y3kUYjwrrCdh40cWsXhV8="
       },
-      "x:d": "NkgVwS4BeyJj8dAjpM0ioTi6aC5/F/5XysjK1l75mNFrR33HfiTW1qD3lPCoUWIW9gupUtWrIYETqHTi82PABg=="
+      "x:d": "momtawN1fSL2IeVHdT94ZjZChO1Y9zuPHJ54yYoLMoJp2/ArRQFaz5NmzDibSUoKOOJiAMOcQK08OM94Q2kNAQ=="
     },
     "owner:m": {
       "$type:s": "core/identity/id",
       "keyGraphID:m": {
         "$type:s": "core/document/id",
-        "hash:r": "HVC3kUtjZ24XCn1rD4YimutfkGD3IkC27b9Du6v6fTs="
+        "hash:r": "MJjhXL4u1rmcM528+WJRdQD3knPf+sYTEdp+bOuR/cc="
       }
     }
   },
@@ -24,21 +24,21 @@
     "$type:s": "core/identity/id",
     "keyGraphID:m": {
       "$type:s": "core/document/id",
-      "hash:r": "HVC3kUtjZ24XCn1rD4YimutfkGD3IkC27b9Du6v6fTs="
+      "hash:r": "MJjhXL4u1rmcM528+WJRdQD3knPf+sYTEdp+bOuR/cc="
     }
   },
   "peerAddresses:am": [
     {
       "$type:s": "core/node.address",
       "address:s": "asimov.testing.reamde.dev:1013",
-      "network:s": "utp",
-      "publicKey:d": "eZiRw0Vcs36XX6RbPEdxdvYIJwI2bD2+6WnjLI6cqx0="
+      "publicKey:d": "HmWZ1rzFdeg/bKIK5WwU1IvlQqKM18nRQ4IKYKw2mm0=",
+      "transport:s": "utp"
     },
     {
       "$type:s": "core/node.address",
       "address:s": "banks.testing.reamde.dev:1013",
-      "network:s": "utp",
-      "publicKey:d": "seDfJwv9coWMbg5jTJR3LGRdlRa9fEwaKPEUeDUTlIw="
+      "publicKey:d": "wUz8kCq/jlLksnTpmqG+RqB65Err2dERpoZiODfUhUA=",
+      "transport:s": "utp"
     }
   ]
 }
