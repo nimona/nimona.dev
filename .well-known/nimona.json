@@ -3,37 +3,29 @@
     "_signature:m": {
       "signer:m": {
         "$type:s": "core/peer/key",
-        "publicKey:d": "9WPx2onyOtwqtsrAcySr8aDjVyzlm5cH3YYo0HHJ44o="
+        "publicKey:d": "cxkOE+BgZC7G3F/nGiq7ymH+u2yP7+VviWGJ2X7P3R0="
       },
-      "x:d": "MKt1JWiGykqWoCr+k5d3pKvGSalUKW2pipw93Nab4vNDd6p8KFwKhZXWyhgO9W8y/U2NxxXKVRj7meGgAmM5Cg=="
+      "x:d": "hwRYEW9tRtIVbE/jM8i5tYSO/JCkkmocdM/DX2T9VCK4BXIXrivPfBd+FHFWYx8KuQO23VCbOQeZO2KF6G1XCw=="
     },
-    "owner:m": {
-      "$type:s": "core/identity/id",
-      "keyGraph:r": "pxOPeIkaZ/2laW+1XbVPgHfR8N34qDMLUiy8zG2z56w=",
-      "type:s": "provider"
-    }
+    "owner:r": "ye0AyTGU2rIjzAcoJyak53KztWcQGzKtEuM3m4xgxc0="
   },
-  "$type:s": "core/identity/info",
+  "$type:s": "core/identity.info",
   "alias:m": {
     "$type:s": "core/identity.alias",
     "hostname:s": "nimona.dev"
   },
-  "identity:m": {
-    "$type:s": "core/identity/id",
-    "keyGraph:r": "pxOPeIkaZ/2laW+1XbVPgHfR8N34qDMLUiy8zG2z56w=",
-    "type:s": "provider"
-  },
+  "keygraph:r": "ye0AyTGU2rIjzAcoJyak53KztWcQGzKtEuM3m4xgxc0=",
   "peerAddresses:am": [
     {
       "$type:s": "core/node.address",
       "address:s": "asimov.testing.reamde.dev:1013",
-      "publicKey:d": "kijO0f2Gd3ROHN68Gd/QSIYAkAJwwXY7wqjjfBkj3ac=",
+      "publicKey:d": "d96MRrH3i3N8SVL00jsfOZh35YtK2glMEMzXtMRQ1Iw=",
       "transport:s": "utp"
     },
     {
       "$type:s": "core/node.address",
       "address:s": "banks.testing.reamde.dev:1013",
-      "publicKey:d": "7akuRwxEwtTjxOUTUsXiX6SQ/nZrZ36T6b0Oj7gYWyU=",
+      "publicKey:d": "MINNIbVJUIXm+gav/ryWV1EnuQFDNIBpN4+pfIO/NCw=",
       "transport:s": "utp"
     }
   ]
